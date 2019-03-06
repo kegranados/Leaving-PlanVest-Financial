@@ -10,17 +10,26 @@ html {
 }
 .container {
   text-align: left-align;
-  padding-left: 30%;
-  padding-right: 30%;
+  margin-top:20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 10px;
 }
 .bttn {
   background-color: white;
   text-decoration: none;
   text-align:center;
   border: 1px solid black;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 a:visited {color:#000000;}
-button:hover {
+a:hover {color:#202020;}
+.bttn:hover {
   text-align:center;
   border: 1px solid #707070;
+  text-color:#707070;
+  text-decoration: none;
 }
